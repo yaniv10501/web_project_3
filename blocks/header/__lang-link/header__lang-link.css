@@ -1,0 +1,13 @@
+.header__lang-link {
+  color: #fff;
+  text-decoration: none;
+  grid-area: 1 / -1 / 1/ -1;
+  justify-self: end;
+  align-self: flex-end;
+}
+
+.header__lang-link:first-of-type {
+  margin-right: 18px;
+  grid-column-end: -2;
+  text-decoration: underline;
+}
