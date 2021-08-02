@@ -1,5 +1,7 @@
-.intro__container {
-  max-width: 690px;
+.places {
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 92px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,4 +10,3 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
-

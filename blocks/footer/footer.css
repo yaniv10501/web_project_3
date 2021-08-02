@@ -1,0 +1,12 @@
+.footer {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding-top: 92px;
+  padding-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}

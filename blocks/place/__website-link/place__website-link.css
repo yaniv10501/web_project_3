@@ -1,0 +1,10 @@
+.place__website-link {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+  grid-area: place-website;
+  align-self: flex-end;
+  justify-self: flex-start;
+}

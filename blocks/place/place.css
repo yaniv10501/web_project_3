@@ -1,0 +1,16 @@
+.place {
+  padding-bottom: 80px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 48px auto;
+  -ms-grid-columns: 460px 40px 1fr;
+  grid-template:
+    'place-title place-website' 1fr
+    'place-image place-paragraph' auto
+    / 460px 1fr;
+  grid-gap: 48px 40px;
+}
+
+.place:last-child {
+  padding-bottom: 0;
+}

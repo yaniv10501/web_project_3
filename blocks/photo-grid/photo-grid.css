@@ -1,0 +1,11 @@
+.photo-grid {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 213px 16px 213px 16px 213px;
+  -ms-grid-columns: 284px 16px 284px 16px 284px 16px 284px;
+  grid-template: 213px 213px 213px / 284px 284px 284px 284px;
+  grid-gap: 16px;
+}

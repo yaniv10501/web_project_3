@@ -1,0 +1,7 @@
+.cover__link {
+  text-decoration: none;
+}
+
+.cover__link:hover .cover__overlay::before {
+  opacity: 0.5;
+}

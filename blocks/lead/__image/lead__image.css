@@ -1,5 +1,8 @@
 .lead__image {
   width: 984px;
   height: 615px;
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
 }

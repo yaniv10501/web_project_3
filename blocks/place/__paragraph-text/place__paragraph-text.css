@@ -1,0 +1,11 @@
+.place__paragraph-text {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0 0 25px 0;
+}
+
+.place__paragraph-text:last-child {
+  margin-bottom: 0;
+}

@@ -1,5 +1,6 @@
-.intro__container {
-  max-width: 690px;
+.place__paragraph {
+  margin: 0;
+  grid-area: place-paragraph;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,4 +9,3 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
-
