@@ -1,20 +1,25 @@
 # Project 3: From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Images
+The 3nd project of my journey of becoming a front end developer.
 
-**Intro**
+## Intro
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a project about traveling across the US. I made this website to display all the blocks and elements correctly on popular screen sizes with well planned layout and the @media rule.
 
-**Figma**
+## Overview
 
-* [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
+* Layout plan
+* Flex and Grid containers
+* @media rule
 
-**Images**
+**Layout plan**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+abc
 
-Good luck and have fun!
+**Flex and Grid containers**
+
+abc
+
+**@media rule**
+
+abc
