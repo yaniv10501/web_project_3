@@ -4,8 +4,48 @@
   padding: 0;
   display: -ms-grid;
   display: grid;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-grid-rows: 213px 16px 213px 16px 213px;
   -ms-grid-columns: 284px 16px 284px 16px 284px 16px 284px;
-  grid-template: 213px 213px 213px / 284px 284px 284px 284px;
+  grid-template: repeat(3, 213px) / repeat(4, 284px);
   grid-gap: 16px;
+}
+
+@media screen and (max-width: 1220px) {
+  .photo-grid {
+    max-width: 928px;
+    -ms-grid-rows: 225px 14px 225px 14px 225px 14px 225px;
+    -ms-grid-columns: 300px 14px 300px 14px 300px;
+    grid-template: repeat(4, 225px) / repeat(3, 300px);
+    grid-gap: 14px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .photo-grid {
+    max-width: 720px;
+    -ms-grid-rows: 264px 16px 264px 16px 264px 16px 264px 16px 264px 16px 264px;
+    -ms-grid-columns: 352px 16px 352px;
+    grid-template: repeat(6, 264px) / repeat(2, 352px);
+    grid-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .photo-grid {
+    -ms-grid-rows: 216px 12px 216px 12px 216px 12px 216px 12px 216px 12px 216px;
+    -ms-grid-columns: 288px 12px 288px;
+    grid-template: repeat(6, 216px) / repeat(2, 288px);
+    grid-gap: 12px;
+  }
+}
+
+@media screen and (max-width: 658px) {
+  .photo-grid {
+    -ms-grid-rows: 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px;
+    -ms-grid-columns: 288px;
+    grid-template: repeat(12, 216px) / 288px;
+  }
 }

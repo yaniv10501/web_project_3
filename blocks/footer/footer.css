@@ -10,3 +10,28 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1220px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .footer {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .footer {
+    max-width: 558px;
+  }
+}
+@media screen and (max-width: 658px) {
+  .footer {
+    max-width: 288px;
+    flex-direction: column;
+    padding-top: 64px;
+  }
+}

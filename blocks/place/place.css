@@ -14,3 +14,28 @@
 .place:last-child {
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 1220px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    grid-column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    grid-column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .place {
+    grid-template:
+      'place-title' 35px
+      'place-website' 1fr
+      'place-image' 320px
+      'place-paragraph' auto
+      /320px;
+  }
+}

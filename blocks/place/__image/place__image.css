@@ -5,3 +5,24 @@
   object-fit: cover;
   grid-area: place-image;
 }
+
+@media screen and (max-width: 1220px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
+  }
+}
