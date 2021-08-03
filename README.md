@@ -2,6 +2,8 @@
 
 The 3rd project of my journey of becoming a front-end developer.
 
+[Link to page:](https://yaniv10501.github.io/web_project_3/)
+
 ## Intro
 
 This is a project about traveling across the US, from Portland, ME. to Portland, OR.
