@@ -7,8 +7,8 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: auto;
-  -ms-grid-columns: auto auto auto;
-  grid-template: auto / 1fr repeat(3, calc(auto + 18px)) auto;
+  -ms-grid-columns: 1fr auto auto;
+  grid-template: auto / 1fr repeat(2, auto);
 }
 
 @media screen and (max-width: 1220px) {
