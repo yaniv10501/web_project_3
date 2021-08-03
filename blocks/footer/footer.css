@@ -3,7 +3,10 @@
   margin: 0 auto;
   padding-top: 92px;
   padding-bottom: 24px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr;
+  -ms-grid-columns: auto auto auto 1fr;
   grid-template: 1fr / repeat(3, auto) 1fr;
 }
 
@@ -28,6 +31,8 @@
 @media screen and (max-width: 658px) {
   .footer {
     max-width: 288px;
+    -ms-grid-rows: auto auto auto 1fr;
+    -ms-grid-columns: 1fr;
     grid-template: repeat(3, auto) 1fr / 1fr;
     padding-top: 64px;
   }

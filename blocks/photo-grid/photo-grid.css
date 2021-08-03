@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 658px) {
   .photo-grid {
-    -ms-grid-rows: 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px;
+    -ms-grid-rows: 216px 12px 216px 12px 216px 12px 216px 12px 216px 12px 216px 12px 216px 12px 216px 12px 216px 12px 216px 12px 216px 12px 216px 12px;
     -ms-grid-columns: 288px;
     grid-template: repeat(12, 216px) / 288px;
   }
