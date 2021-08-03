@@ -33,7 +33,7 @@
   .place {
     grid-template:
       'place-title' 35px
-      'place-website' 1fr
+      'place-website' auto
       'place-image' 320px
       'place-paragraph' auto
       /320px;
