@@ -6,9 +6,9 @@
   padding-top: 34px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template: 1fr / 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  -ms-grid-columns: auto auto auto;
+  grid-template: auto / 1fr repeat(3, calc(auto + 18px)) auto;
 }
 
 @media screen and (max-width: 1220px) {
