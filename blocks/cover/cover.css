@@ -1,5 +1,5 @@
 .cover {
-  width: 1184px;
+  max-width: 1184px;
   height: 740px;
   margin: 0 auto;
   position: relative;
@@ -7,35 +7,35 @@
 
 @media screen and (max-width: 1220px) {
   .cover {
-    width: 1024px;
+    max-width: 1024px;
     height: 640px;
   }
 }
 
 @media screen and (max-width: 990px) {
   .cover {
-    width: 768px;
+    max-width: 768px;
     height: 480px;
   }
 }
 
 @media screen and (max-width: 758px) {
   .cover {
-    width: 558px;
+    max-width: 558px;
     height: auto;
   }
 }
 
 @media screen and (max-width: 700px) {
   .cover {
-    width: 458px;
+    max-width: 458px;
     height: auto;
   }
 }
 
 @media screen and (max-width: 658px) {
   .cover {
-    width: 320px;
+    max-width: 320px;
     height: 200px;
   }
 }
