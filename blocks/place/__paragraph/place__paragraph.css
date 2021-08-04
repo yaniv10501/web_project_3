@@ -9,3 +9,9 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
+@media screen and (max-width: 758px) {
+  .place__paragraph {
+    margin: 0 16px;
+  }
+}

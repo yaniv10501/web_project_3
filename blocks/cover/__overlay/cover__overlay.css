@@ -13,7 +13,7 @@
   background-image: url(../../../Images/cover-route-66.jpg);
   background-position: center;
   background-size: cover;
-  opacity: 0.8;
+  opacity: 0.7;
   -webkit-transition: opacity 0.2s ease-out .1s;
   -o-transition: opacity 0.2s ease-out .1s;
   transition: opacity 0.2s ease-out .1s;
@@ -28,12 +28,6 @@
 @media screen and (max-width: 990px) {
   .cover__overlay {
     padding: 153px 0;
-  }
-}
-
-@media screen and (max-width: 758px) {
-  .cover__overlay {
-    padding: 100px 0;
   }
 }
 

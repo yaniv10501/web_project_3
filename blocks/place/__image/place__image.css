@@ -3,6 +3,7 @@
   height: 460px;
   -o-object-fit: cover;
   object-fit: cover;
+  justify-self: baseline;
   grid-area: place-image;
 }
 

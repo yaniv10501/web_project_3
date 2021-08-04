@@ -9,7 +9,7 @@
   max-width: 320px;
 }
 
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 658px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 1.14;

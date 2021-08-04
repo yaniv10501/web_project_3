@@ -8,7 +8,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 658px) {
   .cover__title {
     font-size: 32px;
     line-height: 1.09;

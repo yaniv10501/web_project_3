@@ -33,13 +33,15 @@
 
 @media screen and (max-width: 758px) {
   .place {
-    -ms-grid-rows: 35px 48px auto 48px 320px 48px auto;
+    -ms-grid-rows: 35px 30px auto 30px 320px 30px auto;
     -ms-grid-columns: 320px;
     grid-template:
       'place-title' 35px
       'place-website' auto
       'place-image' 320px
       'place-paragraph' auto
-      /320px;
+      / 320px;
+      grid-row-gap: 30px;
+      padding-bottom: 48px;
   }
 }
