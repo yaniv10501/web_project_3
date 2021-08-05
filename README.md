@@ -56,6 +56,8 @@ To make the block a link with a transition effect I nested the Cover-Overlay blo
 
 **Header**
 
+The Header Block is a flex container, i chose flex over grid becuase i nested the language links in an unorderd list.
+
 ~~The Header Block is a grid container, I choose grid over flex in order to make a gap between the logo and the language links without nesting the links in a separate container. If I were to use a flex container, the obvious justify setting would be "space-between" so the elements would spread to the borders of the block, but that would force me to nest the language links in a separate container in order to make them both appear on the right side of the container.~~
 
 ~~Using a grid with 1 row set to 1fr, 1 column set to 1fr and 2 columns set to auto make the logo take all the space needed and leaving the language links with just enough space for the text and margin. Another advantage for using a grid is the process of adding or changing the elements, the size of the grid cells will automatically adjust for the content, and if you want to add another language link all you gotta do is add a column to the grid in the repeat function, and set the cells for the links in the lang-link selector.~~
@@ -68,7 +70,9 @@ To make the link and URL-heading maintain their position while the title change 
 
 **Footer**
 
-The Footer Block is a grid container that achieves the same goal as the header block for minimum nesting. For smaller screens, the grid changes from a single row to a single column to match the design.
+The Footer Block is a flex container because I nested the links in a nav tags.
+
+~~The Footer Block is a grid container that achieves the same goal as the header block for minimum nesting. For smaller screens, the grid changes from a single row to a single column to match the design.~~
 
 ### @media rule
 
