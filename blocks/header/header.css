@@ -2,7 +2,11 @@
   max-width: 984px;
   margin: 0 auto;
   padding-top: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
